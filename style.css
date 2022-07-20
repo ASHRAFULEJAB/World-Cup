@@ -84,39 +84,50 @@ main{
     height: 250px;
     background: #161616;
     border-radius: 10px;
-    margin-top: 130px;
+    margin-top: 95px;
+    margin-left: 0;
     
 }
 .sidebar li{
     
     list-style: none;
     justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 30px;
-    font-weight: 900;
+    
+    margin-left: 25px;
+    margin-top: 23px;
+    font-weight: 500;
 }
 .sidebar button{
-    padding: 14px 40px;
+    padding: 14px 30px;
     border-radius: 10px;
     background: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+#blog-pageindicator{
+    background: #DD0000;
+    border-radius: 10px;
+    border: none;
+    color: white;
 }
 .all-blogs{
     
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
+    margin-top: 80px;
     
 }
 .blog{
-    width: 312px;
-    height: 362px;
-    margin-top: 132px;
-    margin-left: 54px;
+    width: 280px;
+    height: 350px;
+    margin-top: 13px;
+    margin-left: 14px;
     border:1px solid rgb(231, 230, 230);
     border-radius: 10px;
     background-color: #FFFFFF;
 }
+
 .blog-details button{
     border: 1px solid #161616;
     border-radius: 5px;
@@ -130,8 +141,11 @@ main{
     font-size: 18px;
     margin-left: 10px;
 }
+.blog-image img{
+    width: 100%;
+}
 .blog-info {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .blog-info i{
     margin: 20px;
