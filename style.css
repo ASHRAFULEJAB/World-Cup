@@ -84,15 +84,15 @@ main{
     height: 250px;
     background: #161616;
     border-radius: 10px;
-    margin-top: 95px;
+    margin-top: 93px;
     margin-left: 0;
+
     
 }
 .sidebar li{
     
     list-style: none;
     justify-content: center;
-    
     margin-left: 25px;
     margin-top: 23px;
     font-weight: 500;
@@ -148,8 +148,10 @@ main{
     margin-top: 10px;
 }
 .blog-info i{
-    margin: 20px;
+    margin: 20px ;
+    
 }
+
 /* footer part */
 
 .footer-container{
@@ -166,9 +168,10 @@ main{
     font-weight: 600;
     padding: 30px;
     margin-left: 590px;
-    
+    justify-content: center;
 
 }
+
 hr{
     color: #FFFFFF;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -176,24 +179,100 @@ hr{
 }
 .footer-info{
     display: flex;
-    justify-content:space-evenly;
+    margin: 10px 10px;
+    padding: 10px;
+    justify-content: center;
 }
 .footer-info li{
     list-style: none;
     color: #B9B9B9;
+    margin: 20px;
 }
 .social-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .social-link li{
     list-style: none;
-    margin: 0 10px;
+    margin: 0 15px;
     font-size: 35px
     
 }
 .social-link a{
     color: #FFFFFF;
 }
+
+/* media Queies */
+
+/* mobile device
+ */
+
+ @media only screen and ( max-width:688px ) {
+   
+       /* Banner */
+    .banner , .all-blogs{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .banner-title{
+        margin-left: 90px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .banner-details{
+        flex-direction: column;
+    }
+    .banner-link{
+        justify-content: center;
+        margin-left: 60px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    /* blogs */
+     .blogs{
+        flex-direction: column;
+        margin-right: 20px;
+     }
+    .sidebar{
+        background-color: #FFFFFF;
+        align-items: center;
+    }
+    .sidebar-button{
+        margin-left: 10px;
+    }
+
+    .footer-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-title{
+        height: 100%;
+        width: 100%;
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 30px;
+        margin-left: 130px;
+        justify-content: center;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 97px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 400;
+        justify-content: center;
+    }
+    .footer-info li{
+        margin: 10px;
+    }
+    .social-link{
+        margin-bottom: 15px;
+    }
+ }
