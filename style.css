@@ -141,6 +141,12 @@ main{
     border: none;
     color: white;
 }
+#all-gruop{
+    background: #DD0000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
 .all-blogs{
     
     display: grid;
