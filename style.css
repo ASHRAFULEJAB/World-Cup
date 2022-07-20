@@ -10,11 +10,13 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 /* banner part */
@@ -71,13 +73,76 @@ main{
   
 }
 
+/* Blog part */
+.blogs{
+    display: flex;
+    
+
+}
+.sidebar{
+    width: 250px;
+    height: 250px;
+    background: #161616;
+    border-radius: 10px;
+    margin-top: 130px;
+    
+}
+.sidebar li{
+    
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.sidebar button{
+    padding: 14px 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+.all-blogs{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.blog{
+    width: 312px;
+    height: 362px;
+    margin-top: 132px;
+    margin-left: 54px;
+    border:1px solid rgb(231, 230, 230);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.blog-details button{
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.blog-des{
+    color: #161616;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.blog-info {
+    margin-top: 20px;
+}
+.blog-info i{
+    margin: 20px;
+}
 /* footer part */
 
 .footer-container{
     width: 100%;
     height: 350px;
     background-color: #161616;
-    margin-top: 500px;
+    margin-top: 200px;
 }
 .footer-title{
     width: 95px;
